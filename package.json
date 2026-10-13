@@ -1,0 +1,16 @@
+{
+  "name": "deplegando-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leyva <john.leyva@tecsup.edu.pe>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start" : "node index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.7",
+    "nodemon": "^3.1.14"
+  }
+}
